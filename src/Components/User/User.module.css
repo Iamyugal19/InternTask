@@ -1,0 +1,23 @@
+.User{
+    height: 300px;
+    width: 200px;
+    box-sizing: content-box;
+    margin: 2%;
+    border: 2px solid #eee;
+    padding: 2%;
+    background-color: white;
+    border-bottom: solid 10px rgba(0,0,250, 0.7);
+}
+.UserName{
+    text-align: center;
+    margin: 4%;
+    padding: 2%;
+}
+.Id{
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+}
+.User:hover{
+    border-bottom: solid 10px rgba(0,200,0, 0.5);
+}

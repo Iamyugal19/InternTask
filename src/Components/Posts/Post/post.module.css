@@ -1,0 +1,19 @@
+.Post{
+    height: 300px;
+    width: 200px;
+    box-sizing: content-box;
+    margin: 3%;
+    border: 2px solid #eee;
+    padding: 2%;
+    background-color: white;
+    font-family: 'Barlow', sans-serif;
+    color: blue;
+    box-shadow: 0 20px 50px rgba(120,120,120, 0.7);
+    border-bottom: solid 10px rgba(160,0,100 ,0.7);
+    transition: cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.Post:hover{
+    box-shadow: 0 5px 10px rgba(120,120,120, 0.7);
+    border-bottom: solid 10px rgba(100,100,200 ,0.7);;
+}

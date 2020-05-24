@@ -1,0 +1,36 @@
+
+
+.SearchBar{
+  width: 30%;
+  height: 5%;
+  text-align: center;
+  margin-right: 0%;
+  align-items: center;
+  display: inline-block;
+}
+
+.Input{
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+    outline: none;
+    padding: 4%;
+    border: 2px solid rgba(0,0,0,0.3);
+    color: black;
+    border-radius: 20px;
+    margin-bottom: 0;
+}
+.Suggestion{
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    background-color: white;
+
+}
+.autocomplete{
+  text-align: center;
+}
+
+.Input:active{
+  border-bottom: none;
+}
